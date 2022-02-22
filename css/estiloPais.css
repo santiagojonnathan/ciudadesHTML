@@ -1,0 +1,108 @@
+body {
+  font-family: Montserrat, 'Poppins', sans-serif;
+  background-color: #1d1d1d;
+  color: aliceblue;
+}
+
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: springgreen;
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #313131;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color: royalblue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#NY{
+  color: darkorange;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+}
+
+.banderaUS{
+  background-image: url("../img/usbandera.png");
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.fondoIndex{
+  background-image: url("../img/fondo.png");
+  
+}
